@@ -44,7 +44,7 @@ body {
   color: rgb(0, 174, 255);
 }
 .nav-outside img {
-  height: 3vh;
+  height: 1.5rem;
   margin-right: 20px;
 }
 
@@ -212,6 +212,7 @@ body {
   margin: 0;
   padding: 0 20px;
   font-weight: lighter;
+
 }
 .grid h4 {
   text-transform: uppercase;
@@ -342,7 +343,7 @@ iframe {
 }
 
 .box-2 img {
-  height: 1em;
+  height: 2em;
   width: 2em;
 }
 .box-2 p {
@@ -355,11 +356,11 @@ iframe {
 
 .box-2 .box-2-2 {
   display: flex;
-  align-items: center;
+  
 }
-
 .box-2 .box-2-2 p {
-  padding-right: 2rem;
+  padding-right: 5.5rem;
+  padding-top: 0;
 }
 
 @media only screen and (max-width: 1000px) {
