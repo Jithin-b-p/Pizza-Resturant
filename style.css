@@ -1,0 +1,304 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+
+}
+.nav-bar {
+  background: black;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  height: 8vh;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  
+  /* flex-direction: row; */
+}
+
+.nav-bar .resturant-name {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.nav-bar .nav-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.nav-bar .nav-link:hover {
+  color: rgb(0, 174, 255);
+}
+.nav-outside img{
+  height: 3vh;
+  margin-right: 20px;
+}
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0.9)), url("./images/pizza.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
+
+.home-title {
+  width: 40%;
+}
+.home-title h1{
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+
+.home-title .line {
+  height: 4px;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(192, 73, 5);
+}
+
+.home-title .explain{
+  width: 70%;
+  overflow: hidden;
+}
+
+.about-us {
+  background: black;
+  padding: 3rem 13rem;
+  min-height: 70vh;
+}
+.about-us h2{
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-us .line {
+  height: 4px;
+  background-color: rgb(192, 73, 5);
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us-description {
+  display: flex;
+  margin-top: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+.about-us-description .description{
+  padding-right: 80px;
+}
+.about-us-description img {
+  height:20rem;
+  width: 25rem;
+  float: right;
+}
+
+.description .line{
+  height: 1px;
+  margin-left: 0px;
+  width: 38%;
+}
+
+@media (max-width: 800px) {
+  .about-us-description {
+    flex-direction: column;
+  }
+}
+
+.menu {
+  clear: both;
+  background: black;
+  padding: 3rem 13rem;
+}
+
+.menu h2 {
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.menu .line {
+  height: 4px;
+  background: rgb(192, 73, 5);
+  width: 20%;
+  margin: 0 auto;
+}
+
+.menu .description {
+  margin-top: 30px;
+  width: 100%;
+  line-height: 30px;
+  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+}
+
+.grid {
+  display: flex;
+  width: 97%;
+  margin-top: 40px;
+  font-size: 15px;
+  line-height: 30px;
+}
+.grid img {
+  width: 240px;
+  height: 220px;
+}
+.grid .description {
+  margin: 0;
+  padding: 0 20px;
+  font-weight: lighter;
+}
+.grid h4 {
+  text-transform: uppercase;
+  color: goldenrod;
+}
+@media (max-width: 1000px) {
+  .grid-container { grid-template-columns: repeat(1, 1fr); }
+}
+@media (max-width: 800px) {
+  .grid {
+    flex-direction: column;
+  }
+}
+
+.find-us {
+  background: black;
+  padding: 3rem 13rem;
+  min-height: 70vh;
+
+}
+.find-us h2{
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.find-us .line {
+  height: 4px;
+  width: 20%;
+  margin: 0 auto;
+  background: rgb(192, 73, 5);
+}
+
+.details {
+  margin-top: 40px;
+  display: flex;
+}
+
+.details .description {
+  width: 50%;
+  padding-right: 70px;
+}
+
+.details, .location, .phone{
+  display: flex;
+  
+}
+
+.details .description, .contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact img {
+  height: 50px;
+  
+}
+.contact .img {
+  padding-top: 15px;
+}
+
+.contact {
+  padding-top: 30px;
+}
+.contact .info {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.phone .info p{
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .details {
+    flex-direction: column;
+    flex: 100%;
+  }
+  .details, .location, .phone{
+  flex-direction: column;
+  flex: 100%;
+  
+}
+}
+
+.mail-details {
+  background: black;
+  padding: 90px;
+  display: flex;
+}
+
+.box-1 {
+  width: 50%;
+}
+.box-1 img{
+
+  height: 200px;
+}
+
+.box-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.box-2 img{
+  height: 30px;
+  width: 40px;
+}
+.box-2 p{
+  padding: 20px;
+}
+.box-2 .box-2-1{
+  display: flex;
+  align-items: center;
+}
+
+.box-2 .box-2-2 {
+  display: flex;
+  align-items: center;
+}
+
+.box-2 .box-2-2 p{
+  padding-right: 75px;
+}
