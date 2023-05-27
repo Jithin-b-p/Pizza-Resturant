@@ -111,7 +111,7 @@ body {
 .about-us {
   background: black;
   padding: 3rem 10rem;
-  min-height: 50vh;
+  min-height: 40vh;
   width: 100%;
 }
 .about-us h2 {
@@ -152,16 +152,17 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-  .about-us {
-    padding: 3rem 3rem;
-  }
   .about-us-description {
     flex-direction: column;
     text-align: center;
   }
-  .about-us .description {
-    padding: 0;
+  .about-us-description .description{
+    padding-right: 0;
   }
+  .about-us {
+    padding: 3rem 3rem;
+  }
+  
 }
 
 .menu {
@@ -221,7 +222,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .grid {
     flex-direction: column;
   }
