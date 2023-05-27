@@ -102,7 +102,7 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .home {
     padding: 3rem 1.5rem;
     padding-top: 35rem;
@@ -151,7 +151,7 @@ body {
   width: 38%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .about-us {
     padding: 3rem 3rem;
   }
@@ -361,7 +361,7 @@ iframe {
   padding-right: 2rem;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .mail-details {
     padding: 3rem 3rem;
     flex-direction: column;
