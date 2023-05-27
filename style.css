@@ -111,7 +111,7 @@ body {
 .about-us {
   background: black;
   padding: 3rem 10rem;
-  min-height: 70vh;
+  min-height: 50vh;
   width: 100%;
 }
 .about-us h2 {
@@ -234,7 +234,7 @@ body {
 .find-us {
   background: black;
   padding: 3rem 10rem;
-  min-height: 70vh;
+  min-height: 50vh;
 }
 .find-us h2 {
   font-weight: normal;
