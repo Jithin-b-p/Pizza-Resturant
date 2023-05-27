@@ -21,6 +21,7 @@ body {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
   
   /* flex-direction: row; */
 }
@@ -107,9 +108,8 @@ body {
   padding-right: 80px;
 }
 .about-us-description img {
-  height:20rem;
-  width: 25rem;
-  float: right;
+  height: 30vh;
+  width: 25vw;
 }
 
 .description .line{
@@ -118,7 +118,7 @@ body {
   width: 38%;
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .about-us-description {
     flex-direction: column;
   }
@@ -127,7 +127,7 @@ body {
 .menu {
   clear: both;
   background: black;
-  padding: 3rem 13rem;
+  padding: 3rem 10rem;
 }
 
 .menu h2 {
@@ -178,10 +178,10 @@ body {
   text-transform: uppercase;
   color: goldenrod;
 }
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .grid-container { grid-template-columns: repeat(1, 1fr); }
 }
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .grid {
     flex-direction: column;
   }
@@ -248,7 +248,7 @@ body {
   margin-bottom: 10px;
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .details {
     flex-direction: column;
     flex: 100%;
